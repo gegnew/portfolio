@@ -90,9 +90,9 @@ enableEmoji = "true"
 
     [languages.en.params.social]
       Email = "g.egnew@gmail.com"
-      GitHub = "https://github.com/gegnew"
-      Linkedin = "https://www.linkedin.com/in/gerrit-egnew-932b55112/"
-      Instagram = "https://www.instagram.com/ween_trigger/"
+      GitHub = "gegnew"
+      Linkedin = "gerrit-egnew-932b55112/"
+      Instagram = "ween_trigger"
       Telegram = "gerritegnew"
       Whatsapp = "send?phone=41765793950&text=Hello%2C%20I%27m%20interested%20in%20chatting%20about%20your%20services."
       Strava = "6434174"
