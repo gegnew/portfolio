@@ -1,3 +1,162 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "loveit"
+enableEmoji = "true"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+
+[languages]
+  [languages.en]
+    weight=1
+    title = "Gerrit Egnew"
+    subtitle = "some shit"
+    languageCode = "en"
+    languageName = "English"
+
+  [languages.en.params.home]
+    # amount of RSS pages
+    rss = 10
+    # Home page profile
+    [languages.en.params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = "g.egnew@gmail.com"
+      # URL of avatar shown in home page
+      # avatarURL = "/images/avatar.png"
+      # title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page
+      subtitle = "developer // consultant // explorer"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [languages.en.params.home.posts]
+      enable = false
+      # special amount of posts in each home posts page
+      paginate = 6
+
+    [[languages.en.menu.main]]
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "About"
+      url = "/about/"
+      title = ""
+      weight = 1
+
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      # title will be shown when you hover on this menu link
+      title = ""
+      weight = 2
+
+    [[languages.en.menu.main]]
+      identifier = "resume"
+      pre = ""
+      post = ""
+      name = "CV"
+      url = "/resume.pdf"
+      title = ""
+      weight = 3
+
+    [languages.en.params.social]
+      Email = "g.egnew@gmail.com"
+      GitHub = "https://github.com/gegnew"
+      Linkedin = "https://www.linkedin.com/in/gerrit-egnew-932b55112/"
+      Instagram = "https://www.instagram.com/ween_trigger/"
+      Telegram = "gerritegnew"
+      Whatsapp = "send?phone=41765793950&text=Hello%2C%20I%27m%20interested%20in%20chatting%20about%20your%20services."
+      Strava = "6434174"
+
+  [languages.de]
+    weight=1
+    title = "Gerrit Egnew"
+    languageCode = "de"
+    languageName = "German"
+
+  [languages.de.params.home]
+    rss = 10
+    [languages.de.params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = "g.egnew@gmail.com"
+      # URL of avatar shown in home page
+      # avatarURL = "/images/avatar.png"
+      # title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page
+      subtitle = "entwickler // berater // entdecker"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [languages.de.params.home.posts]
+      enable = false
+      # special amount of posts in each home posts page
+      paginate = 6
+
+    [[languages.de.menu.main]]
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "Über mich"
+      url = "/about/"
+      title = ""
+      weight = 1
+
+    [[languages.de.menu.main]]
+      identifier = "posts"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      name = "Beiträge"
+      url = "/posts/"
+      # title will be shown when you hover on this menu link
+      title = ""
+      weight = 2
+
+    [[languages.de.menu.main]]
+      identifier = "resume"
+      pre = ""
+      post = ""
+      name = "Lebenslauf"
+      url = "/resume.pdf"
+      title = ""
+      weight = 3
+
+    [languages.de.params.social]
+      Email = "g.egnew@gmail.com"
+      GitHub = "https://github.com/gegnew"
+      Linkedin = "https://www.linkedin.com/in/gerrit-egnew-932b55112/"
+      Instagram = "https://www.instagram.com/ween_trigger/"
+      Telegram = "gerritegnew"
+      Whatsapp = "send?phone=41765793950&text=Hello%2C%20I%27m%20interested%20in%20chatting%20about%20your%20services."
+      Strava = "6434174"
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
