@@ -1,15 +1,10 @@
 baseURL = "http://example.org/"
-# [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
-# language code
 languageCode = "en"
-
-# Change the default theme to be use when building the site with Hugo
 theme = "loveit"
 enableEmoji = "true"
 
 [params]
-  # LoveIt theme version
   version = "0.2.X"
 
 [languages]
@@ -56,6 +51,15 @@ enableEmoji = "true"
       weight = 1
 
     [[languages.en.menu.main]]
+      identifier = "resume"
+      pre = ""
+      post = ""
+      name = "Download CV"
+      url = "/resume.pdf"
+      title = ""
+      weight = 4
+
+    [[languages.en.menu.main]]
       identifier = "posts"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
@@ -68,13 +72,22 @@ enableEmoji = "true"
       weight = 2
 
     [[languages.en.menu.main]]
-      identifier = "resume"
+      identifier = "contact"
       pre = ""
       post = ""
-      name = "CV"
-      url = "/resume.pdf"
+      name = "Contact Me"
+      url = "/contact/"
       title = ""
       weight = 3
+
+    [[languages.en.menu.main]]
+      identifier = "email"
+      pre = "<i class='fab fa-email fa-fw'></i>"
+      post = ""
+      name = ""
+      url = "https://github.com/gegnew"
+      title = "GitHub"
+      weight = 6
 
     [languages.en.params.social]
       Email = "g.egnew@gmail.com"
@@ -89,7 +102,7 @@ enableEmoji = "true"
     weight=1
     title = "Gerrit Egnew"
     languageCode = "de"
-    languageName = "German"
+    languageName = "Deutsch"
 
   [languages.de.params.home]
     rss = 10
@@ -137,13 +150,22 @@ enableEmoji = "true"
       weight = 2
 
     [[languages.de.menu.main]]
+      identifier = "contact"
+      pre = ""
+      post = ""
+      name = "Kontaktiere mich"
+      url = "/contact/"
+      title = ""
+      weight = 3
+
+    [[languages.de.menu.main]]
       identifier = "resume"
       pre = ""
       post = ""
-      name = "Lebenslauf"
+      name = "Lebenslauf herunterladen"
       url = "/resume.pdf"
       title = ""
-      weight = 3
+      weight = 4
 
     [languages.de.params.social]
       Email = "g.egnew@gmail.com"
