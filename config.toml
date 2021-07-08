@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://gerritegnew.info/"
 defaultContentLanguage = "en"
 languageCode = "en"
 theme = "loveit"
@@ -11,7 +11,6 @@ enableEmoji = "true"
   [languages.en]
     weight=1
     title = "Gerrit Egnew"
-    subtitle = "some shit"
     languageCode = "en"
     languageName = "English"
 
