@@ -35,16 +35,18 @@ zu erlangen, um sich in ihr mit Wissen und Vertrauen bewegen zu können. Als Als
 kürzlich in die Alpen verpflanzt, bin ich ständig damit beschäftigt, neue neue
 Umgebungen, Kulturen und Geographie zu lernen.
 
+Derzeit arbeite ich mit [Zeit Medical](https://www.zeitmedical.com/team) an der automatisierten Schlaganfallerkennung zu Hause.
+
 #### Skillset
-_Sprache:_` Python, Javascript, Java, Kotlin, PHP`
+_Languages:_` Python, Javascript, Java, Kotlin, PHP`
 
-_Tools_: `pandas, tensorflow, scikit-learn, kafka`
+Tools: `pandas, tensorflow, scikit-learn, kafka, RabbitMQ`
 
-_Databases_: `Postgresql, MySQL, MongoDB, Cassandra`
+_Databases_: `CouchDB, Postgres, MySQL, MongoDB, Cassandra`
 
-_Frameworks_: `Spring, Flask, FastAPI, Express.js`
+_Frameworks_: `FastAPI, Spring, Flask, Express.js`
 
-_DevOps/Cloud_: `AWS (S3, EC2, RDS), Azure, GCP, Hetzner, Docker, Kubernetes, Jenkins`
+_DevOps/Cloud_: `AWS (extensive), Azure, GCP, Hetzner, Docker, Kubernetes`
 
 #### Zeitleiste
 - _September 2012 - May 2018_ **Montana State University** (B.S. Biological Engineering)
@@ -52,7 +54,9 @@ _DevOps/Cloud_: `AWS (S3, EC2, RDS), Azure, GCP, Hetzner, Docker, Kubernetes, Je
 - _May 2018 - July 2019_ **Enviromin, Inc.** (Bozeman, MT)
 - _November 2019 - August 2020_ **Relayr GmbH** (Munich, DE)
 - _September 2020 - September 2021_ **Wyssen Avalanche Control** (Reichenbach, CH)
-- _July 2019 - Current_ **Primity Bio** (Remote)
+- _July 2019 - August 2022 **Primity Bio** (Remote)
+- _January 2022 - August 2022 **Consultant, Tribe AI** (Remote)
+- _May 2022 - Current_ **Zeit Medical** (Remote)
 
 #### Zertifizierungen
 - Udacity Data Engineering (2020)
